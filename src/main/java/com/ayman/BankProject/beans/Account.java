@@ -35,7 +35,7 @@ public class Account {
 	private Status status;
 	
 	
-	
+	/*trest */
 	
 	@OneToMany(mappedBy = "account")
 	private List<Transaction> transactions;
